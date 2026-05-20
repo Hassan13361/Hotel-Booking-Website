@@ -1,20 +1,16 @@
+</html>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-         <link
-         href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-         rel="stylesheet"/>
-
-         
-        <title>Hotels</title>
-        <link rel="stylesheet" href="hotels css.css">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="homepage.css">
     </head>
     <body>
+        
         <nav>
-            <input type="checkbox" id="check">
-            <label for="check"><i style="float: right;" class="bx bx-menu position top-0 end-0" id="menuicon"></i></label>
+            <input type="checkbox"  id="check">
+            <label for="check"><i class="fas fa-bars" id="checkbtn"></i></label>
             <label for="title" class="logo">Online Hotel Booking</label>
             <ul>
                 <li><a href="/homepagehtml.html">Home</a></li>
@@ -24,178 +20,63 @@
                 <li><a href="/contact us webpage.html">Contact Us</a></li>
             </ul>
         </nav>
-        <h1>Islamabad</h1>
-            <div class="row cols-sm-4  cols-md-3  ">
-            <div class="col">
-                <div class="card h-100" style="width: 18rem; ">
-                    <img src="images/pvh.jpg" class="card-img-top" alt="..." style="height: 12.5rem; ">
-                    <div class="card-body">
-                      <h5 class="card-title">Pine View Hotel,IJP Road,Rawalpindi </h5>
-                      <p class="card-text">Price:Rs=4000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
+            <h1 style="text-align: center;">Where to</h1>
+            <div class="search">
+                <div style="display: grid; grid-template-columns: repeat(2,50%); ">
+                    <div>
+                        <select class="bar">
+                            <option>Pine view Hotel,IJP Road,Islamabad</option>
+                            <option>Reina Botique Hotel,G6,Islamabad</option>
+                            <option>Hotel Faran,G10,Islamabad</option>
+                            <option>Islamabad Serena Hotel,G5,Islamabad</option>
+                            <option>Amin Hotel,Tehkal,Peshawar</option>
+                            <option>Shelton Rezidor,Hashtrangi,Peshawar</option>
+                            <option>Fort Continual,Shahi Bhagh,Peshawar</option>
+                            <option>Hotel Grand,Tehkal,Peshawar</option>
+                            <option>Hotel One,Gulberg,Lahore</option>
+                            <option>Hilton Suites,Gulberg,Lahore</option>
+                            <option>Pearl continetal Hotel,Lahore</option>
+                            <option>Rose Palace Hotel,Gulberg,Lahore</option>
+                            <option>Hotel Crown,Saddar,Karachi</option>
+                            <option>Hotel Mehran, Karachi Cantt</option>
+                            <option>Hotel Excelsior,Saddar Town,Karachi</option>
+                            <option>Hotel Seaview,Clifton,Karachi</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 80px;">
+                        <button  type="button"  class="button"><a href="/booking form.html" >Select</a></button>
                     </div>
                 </div>
             </div>
-            <div class="col ">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/rbh.jpg" class="card-img-top" alt="..."style="height: 12.5rem; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Reina Botique Hotel,G6,Islamabad</h5>
-                      <p class="card-text">Price:Rs=5000\- per night.</p>
-                      <a href="booking form.html" class="btn btn-primary">Book</a>
-                    </div>
+            <div class="images" >
+                <h1 style="text-align: center;">Rooms</h1>
+                <div style="display: flex; flex-direction: row ; column-gap: 1%; ">
+                <img src="/room6.jpg" >
+                <img src="/room2.jpg" >
+                <img src="/room3.jpg" >
+                <img src="/room 4.jpg" >
+                <img src="/room8.jpg" >
+                </div>
+            </div>   
+            <div class="images">
+                <h1 style="text-align: center;">Views</h1>
+                <div style="display: flex; flex-direction: row; column-gap: 1%; ">
+                <img src="/view1.jpg" >
+                <img src="/view2.jpg" >
+                <img src="/view3.jpg"  >
+                <img src="/view04.jpg">
+                <img src="/view5.jpg" >
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/hfi.jpg" class="card-img-top" alt="..."style="height: 12.5rem; ">
-                    <div class="card-body">
-                      <h5 class="card-title">Hotel Faran,G10 Markaz,Islamabad</h5>
-                      <p class="card-text">Price:Rs=4500\- per night.</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
+        <div class="images">
+                <h1 style="text-align: center;">Resorts</h1>
+                <div style="display: flex; flex-direction: row; column-gap: 1%; padding-bottom: 10px;">
+                <img src="/cap1.jpg"  >
+                <img src="/cap2.jpg"  >
+                <img src="/cap3.jpg" >
+                <img src="/cap4.jpg">
+                <img src="/cap5.jpg" >
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/ish.jpg" class="card-img-top" alt="..." style="height: 12.5rem; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Islamabad Serena Hotel,G5,Islamabad</h5>
-                      <p class="card-text">Price:Rs=8700\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <h1>Peshawar</h1>
-            <div class="row cols-sm-4 cols-md-3 ">
-            <div class="col">
-                <div class="card h-100" style="width: 18rem; ">
-                    <img src="images/amp.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Amin Hotel , Tehkaal , Peshawar</h5>
-                      <p class="card-text">Price:Rs=7000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/srp.jpg" class="card-img-top" alt="..."style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Shelton Rezidor, Hashtrangi,Peshawar</h5>
-                      <p class="card-text">Price:Rs=6000\- per night.</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/fcp.jpg" class="card-img-top" alt="..."style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Fort Continual,Shahi Bhagh,Peshawar</h5>
-                      <p class="card-text">Price:Rs=9000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/hgp.webp" class="card-img-top" alt="..." style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Hotel Grand , Tehkaal , Peshawar</h5>
-                      <p class="card-text">Price:Rs=5500\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <h1>Lahore</h1>
-            <div class="row cols-sm-4 cols-md-3">
-            <div class="col">
-                <div class="card h-100" style="width: 18rem; ">
-                    <img src="images/hol.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title"> Hotel one inn , Gulberg ,Lahore</h5>
-                      <p class="card-text">Price:Rs=7500\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/hsl.jpg" class="card-img-top" alt="..."style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Hilton Suites Hotel , Gulberg,Lahore</h5>
-                      <p class="card-text">Price:Rs=8000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/pch.jpg" class="card-img-top" alt="..."style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Pearl continetal Hotel ,kurangi Town,Lahore</h5>
-                      <p class="card-text">Price:Rs=9000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/rbh.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Rose Palace Hotel,Gulberg,Lahore</h5>
-                      <p class="card-text">Price:Rs=10000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <h1>Karachi</h1>
-            <div class="row cols-sm-4 cols-md-3">
-            <div class="col">
-                <div class="card h-100" style="width: 18rem; ">
-                    <img src="images/hck.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Hotel Crown,Saddar,Karachi</h5>
-                      <p class="card-text">Price:Rs=5000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/hmk.jpg" class="card-img-top" alt="..."style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Hotel Mehran, Karachi Cantt</h5>
-                      <p class="card-text">Price:Rs=6000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/hek.jpg" class="card-img-top" alt="..."style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Hotel Excelsior,Saddar,Karachi</h5>
-                      <p class="card-text">Price:Rs=7000\- per night.</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="images/hsk.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover">
-                    <div class="card-body">
-                      <h5 class="card-title">Hotel Seaview,Clifton,Karachi</h5>
-                      <p class="card-text">Price:Rs=9000\- per night</p>
-                      <a href="/booking form.html" class="btn btn-primary">Book</a>
-                    </div>
-                </div>
-            </div>
-          </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>
     </body>
 </html>
